@@ -38,7 +38,8 @@ void parsingData(){
     digitalWrite(LED_PIN_RED, HIGH);
     digitalWrite(LED_PIN_GREEN, LOW);
     myDFPlayer.play(2);
-    delay(1000);
+    delay(5000);
+    digitalWrite(LED_PIN_GREEN, HIGH);
   }
 
   else if(dt[0] == "off"){
